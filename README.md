@@ -50,20 +50,6 @@ I craft clean, performant frontends that users actually love to interact with. M
 
 ---
 
-## 🚀 Latest Project
-
-### Travel Agency Dashboard  
-*AI-powered trip planning meets modern admin interface*
-
-📍 [Live Demo](https://yatrika-eight.vercel.app) | 💻 [Code](https://github.com/abiral-k/travel-agency-dashboard)
-
-**What makes it cool:**
-- 🤖 AI generates trip itineraries in seconds
-- 📊 Interactive analytics dashboard for admins
-- 🎫 Smooth booking experience for users
-- 💳 Secure payments with Stripe
-- 🔐 Google OAuth authentication
-- 📈 Real-time metrics & insights
 
 **Tech Stack:** React 19 • TypeScript • Tailwind CSS • Vite • Appwrite • Syncfusion • Gemini API
 

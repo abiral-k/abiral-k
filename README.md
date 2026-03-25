@@ -1,158 +1,85 @@
-<!-- Header -->
-<div align="center">
+<svg width="100%" viewBox="0 0 880 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="880" height="320" fill="#0d1117"/>
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║   ~/abiral-k $ whoami                                        ║
-║   > Abiral K. — Frontend Developer                          ║
-║   > Building the web one component at a time.               ║
-║   > React • TypeScript • Clean Code Evangelist              ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-```
+  <!-- Falling code rain columns -->
+  <style>
+    .rain { font-family: 'Courier New', monospace; font-size: 13px; fill: #21e786; }
+    .rain-dim { font-family: 'Courier New', monospace; font-size: 13px; fill: #0f5c3a; }
+    .rain-bright { font-family: 'Courier New', monospace; font-size: 13px; fill: #7fffc4; }
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&pause=1000&color=21E786&center=true&vCenter=true&width=500&lines=Frontend+Developer+%F0%9F%9A%80;React+%2B+TypeScript+Enthusiast;UI%2FUX+Obsessed+%F0%9F%8E%A8;Always+Learning%2C+Always+Building" alt="Typing SVG" />
+    @keyframes fall1 { 0%{transform:translateY(-200px)} 100%{transform:translateY(340px)} }
+    @keyframes fall2 { 0%{transform:translateY(-280px)} 100%{transform:translateY(340px)} }
+    @keyframes fall3 { 0%{transform:translateY(-150px)} 100%{transform:translateY(340px)} }
+    @keyframes fall4 { 0%{transform:translateY(-320px)} 100%{transform:translateY(340px)} }
+    @keyframes fall5 { 0%{transform:translateY(-100px)} 100%{transform:translateY(340px)} }
+    @keyframes fall6 { 0%{transform:translateY(-240px)} 100%{transform:translateY(340px)} }
+    @keyframes fall7 { 0%{transform:translateY(-180px)} 100%{transform:translateY(340px)} }
+    @keyframes fall8 { 0%{transform:translateY(-260px)} 100%{transform:translateY(340px)} }
+    @keyframes fall9 { 0%{transform:translateY(-120px)} 100%{transform:translateY(340px)} }
+    @keyframes fall10{ 0%{transform:translateY(-300px)} 100%{transform:translateY(340px)} }
+    @keyframes fall11{ 0%{transform:translateY(-210px)} 100%{transform:translateY(340px)} }
+    @keyframes fall12{ 0%{transform:translateY(-90px)}  100%{transform:translateY(340px)} }
 
-</div>
+    .c1  { animation: fall1  3.2s linear infinite; }
+    .c2  { animation: fall2  2.8s linear infinite 0.4s; }
+    .c3  { animation: fall3  3.6s linear infinite 0.8s; }
+    .c4  { animation: fall4  2.5s linear infinite 0.2s; }
+    .c5  { animation: fall5  3.9s linear infinite 1.1s; }
+    .c6  { animation: fall6  2.7s linear infinite 0.6s; }
+    .c7  { animation: fall7  3.3s linear infinite 0.9s; }
+    .c8  { animation: fall8  2.9s linear infinite 0.3s; }
+    .c9  { animation: fall9  3.7s linear infinite 0.7s; }
+    .c10 { animation: fall10 2.6s linear infinite 1.3s; }
+    .c11 { animation: fall11 3.1s linear infinite 0.5s; }
+    .c12 { animation: fall12 3.4s linear infinite 1.0s; }
 
----
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+    .cursor { animation: blink 1s step-end infinite; }
 
-<!-- Stats Dashboard -->
-<div align="center">
+    @keyframes fadein { from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:translateY(0)} }
+    .title { animation: fadein 1.2s ease forwards 0.3s; opacity:0; }
+    .sub   { animation: fadein 1.2s ease forwards 0.9s; opacity:0; }
+    .sub2  { animation: fadein 1.2s ease forwards 1.5s; opacity:0; }
+  </style>
 
-## `> system.stats`
+  <!-- Rain columns left side -->
+  <g class="rain-dim c1"><text x="20"  y="0">1</text><text x="20"  dy="16" y="0">0</text><text x="20"  dy="32" y="0">1</text><text x="20"  dy="48" y="0">0</text><text x="20"  dy="64" y="0">1</text><text x="20"  dy="80" y="0">1</text><text x="20"  dy="96" y="0">0</text></g>
+  <g class="rain c2"><text x="42"  y="0">const</text><text x="42"  dy="16" y="0">{</text><text x="42"  dy="32" y="0">}</text><text x="42"  dy="48" y="0">=></text><text x="42"  dy="64" y="0">[]</text></g>
+  <g class="rain-dim c3"><text x="100" y="0">0</text><text x="100" dy="16" y="0">1</text><text x="100" dy="32" y="0">1</text><text x="100" dy="48" y="0">0</text><text x="100" dy="64" y="0">0</text><text x="100" dy="80" y="0">1</text></g>
+  <g class="rain-bright c4"><text x="122" y="0">&lt;/&gt;</text><text x="122" dy="16" y="0">fn()</text><text x="122" dy="32" y="0">===</text><text x="122" dy="48" y="0">!!</text><text x="122" dy="64" y="0">??</text></g>
+  <g class="rain-dim c5"><text x="178" y="0">1</text><text x="178" dy="16" y="0">0</text><text x="178" dy="32" y="0">0</text><text x="178" dy="48" y="0">1</text><text x="178" dy="64" y="0">1</text><text x="178" dy="80" y="0">0</text></g>
+  <g class="rain c6"><text x="200" y="0">await</text><text x="200" dy="16" y="0">async</text><text x="200" dy="32" y="0">true</text><text x="200" dy="48" y="0">null</text></g>
 
-| metric | value |
-|--------|-------|
-| 🟢 **Status** | Open to opportunities |
-| 💻 **Primary Stack** | React 19 · TypeScript · Tailwind CSS |
-| 🔧 **Build Tool** | Vite |
-| ☁️ **Backend** | Appwrite |
-| 🌍 **Location** | Nepal 🇳🇵 |
-| ☕ **Fuel** | Coffee → Code |
+  <!-- Rain columns right side -->
+  <g class="rain c7"><text x="660" y="0">import</text><text x="660" dy="16" y="0">export</text><text x="660" dy="32" y="0">return</text><text x="660" dy="48" y="0">class</text></g>
+  <g class="rain-dim c8"><text x="726" y="0">0</text><text x="726" dy="16" y="0">1</text><text x="726" dy="32" y="0">0</text><text x="726" dy="48" y="0">1</text><text x="726" dy="64" y="0">1</text><text x="726" dy="80" y="0">0</text></g>
+  <g class="rain c9"><text x="748" y="0">=&gt;</text><text x="748" dy="16" y="0">||</text><text x="748" dy="32" y="0">&amp;&amp;</text><text x="748" dy="48" y="0">::</text><text x="748" dy="64" y="0">??</text></g>
+  <g class="rain-dim c10"><text x="788" y="0">1</text><text x="788" dy="16" y="0">0</text><text x="788" dy="32" y="0">1</text><text x="788" dy="48" y="0">0</text><text x="788" dy="64" y="0">0</text><text x="788" dy="80" y="0">1</text></g>
+  <g class="rain c11"><text x="810" y="0">type</text><text x="810" dy="16" y="0">enum</text><text x="810" dy="32" y="0">interface</text><text x="810" dy="48" y="0">extends</text></g>
+  <g class="rain-dim c12"><text x="858" y="0">0</text><text x="858" dy="16" y="0">1</text><text x="858" dy="32" y="0">1</text><text x="858" dy="48" y="0">0</text><text x="858" dy="64" y="0">1</text></g>
 
-</div>
+  <!-- Center dark overlay for text readability -->
+  <rect x="230" y="60" width="420" height="200" rx="8" fill="#0d1117" opacity="0.85"/>
+  <rect x="230" y="60" width="420" height="200" rx="8" fill="none" stroke="#21e786" stroke-width="0.5" opacity="0.4"/>
 
----
+  <!-- Prompt line -->
+  <g class="title">
+    <text x="260" y="108" font-family="'Courier New', monospace" font-size="12" fill="#21e786">~/abiral-k $&nbsp;<tspan fill="#7fffc4">node</tspan>&nbsp;<tspan fill="#c9d1d9">index.js</tspan></text>
+  </g>
 
-## `> skill.levels`
+  <!-- Main name -->
+  <g class="sub">
+    <text x="440" y="172" text-anchor="middle" font-family="'Courier New', monospace" font-size="42" font-weight="700" fill="#ffffff" letter-spacing="-1">abiral</text>
+    <text x="440" y="172" text-anchor="middle" font-family="'Courier New', monospace" font-size="42" font-weight="700" fill="none" stroke="#21e786" stroke-width="0.5" letter-spacing="-1">abiral</text>
+  </g>
 
-```
-React          ████████████████████░░░░  88%
-TypeScript     ███████████████████░░░░░  75%
-Tailwind CSS   █████████████████████░░░  92%
-Vite           ████████████████████░░░░  80%
-Appwrite       ████████████████░░░░░░░░  65%
-GSAP           ████████████████░░░░░░░░  68%
-HTML / CSS     █████████████████████████ 95%
-Git            ████████████████████░░░░  82%
-```
+  <!-- Role -->
+  <g class="sub2">
+    <text x="440" y="204" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#21e786">frontend developer&nbsp;<tspan class="cursor" fill="#21e786">_</tspan></text>
+  </g>
 
----
-
-## `> tech.stack`
-
-<div align="center">
-
-![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
-![Appwrite](https://img.shields.io/badge/Appwrite-F02E65?style=for-the-badge&logo=appwrite&logoColor=white)
-![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-
-</div>
-
----
-
-## `> github.activity`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=abiral-k&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=21e786&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=abiral-k&theme=github-dark-blue&hide_border=true&background=0d1117&ring=21e786&fire=58a6ff&currStreakLabel=21e786" alt="GitHub Streak" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abiral-k&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=21e786&text_color=c9d1d9" alt="Top Languages" />
-
-</div>
-
----
-
-## `> philosophy.json`
-
-```json
-{
-  "core_beliefs": [
-    "Simplicity over complexity",
-    "User experience over feature bloat",
-    "Clean code over clever code",
-    "Collaboration over silos"
-  ],
-  "quote": "Write code that's easy to read, easy to maintain, and easy to delete.",
-  "currently": {
-    "learning": ["React patterns", "TypeScript generics", "Web performance"],
-    "building": "Seamless, interactive user experiences",
-    "exploring": "The latest in the React ecosystem"
-  }
-}
-```
-
----
-
-## `> what.i.do`
-
-```bash
-$ abiral --describe
-
-[✔] Craft clean, performant frontends users love
-[✔] Design seamless UI/UX experiences
-[✔] Optimize performance and bundle sizes
-[✔] Build scalable component architectures
-[✔] Debug, optimize, and ship
-
-$ abiral --mode
-> Learning Mode: ON
-> Coffee Level: ████████░░ 80%
-> Building: YES
-```
-
----
-
-## `> connect.with.me`
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abiral-k)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abiral-k)
-[![Portfolio](https://img.shields.io/badge/Portfolio-21E786?style=for-the-badge&logo=vercel&logoColor=black)](https://your-portfolio-link.com)
-
-```
-I'm always up for chatting about:
-  ▸ Cool frontend projects
-  ▸ React patterns and best practices
-  ▸ UI/UX design principles
-  ▸ Tech in general!
-```
-
-</div>
-
----
-
-<div align="center">
-
-```
-╔═══════════════════════════════════════╗
-║  Every line of code is an opportunity ║
-║  to make something better 🚀          ║
-╚═══════════════════════════════════════╝
-```
-
-![Visitor Count](https://komarev.com/ghpvc/?username=abiral-k&color=21e786&style=flat-square&label=profile+views)
-
-</div>
+  <!-- Bottom status line -->
+  <g class="sub2">
+    <text x="440" y="238" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#3a5f4a">react · typescript · tailwind · vite</text>
+  </g>
+</svg>

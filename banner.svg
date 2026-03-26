@@ -75,11 +75,11 @@
 
   <!-- Role -->
   <g class="sub2">
-    <text x="440" y="204" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#21e786">frontend developer&nbsp;<tspan class="cursor" fill="#21e786">_</tspan></text>
+    <text x="440" y="204" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#21e786">Web developer&nbsp;<tspan class="cursor" fill="#21e786">_</tspan></text>
   </g>
 
   <!-- Bottom status line -->
   <g class="sub2">
-    <text x="440" y="238" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#3a5f4a">react · typescript · tailwind · vite</text>
+    <text x="440" y="238" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#3a5f4a">react · typescript · tailwind</text>
   </g>
 </svg>
